@@ -1,0 +1,32 @@
+# ===== 本地状态与缓存 =====
+.workbuddy/
+
+# ===== 独立的子项目仓库（已有自己的 git 历史，不纳入根仓库） =====
+mars-translator/
+
+# ===== 依赖与构建产物 =====
+node_modules/
+vendor/
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.cache/
+*.tsbuildinfo
+
+# ===== 日志与临时文件 =====
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# ===== 密钥与敏感配置 =====
+.env
+.env.*
+!.env.example
