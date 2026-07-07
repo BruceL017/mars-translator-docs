@@ -1,0 +1,13 @@
+{
+  "name": "mars-translator-engine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "火星文翻译器纯前端翻译引擎（从 mars-translator 抽取的浏览器可运行内核）",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.0"
+  }
+}
